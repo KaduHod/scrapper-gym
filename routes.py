@@ -14,5 +14,5 @@ def rediredct():
 
 @app.route("/muscles")
 def muscles():
-    file = open('./jsons/muscles.json','r').read()
+    file = open('./jsons/muscles-2.json','r').read()
     return file, 200, {'Content-Type': 'application/json;' }

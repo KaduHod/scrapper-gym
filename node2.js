@@ -53,9 +53,7 @@ async function main(){
     let cont = 26
     newExercises.forEach(e => {
         e.id = cont
-        data.push({
-            e
-        })
+        data.push(e)
         cont++
     })
 
